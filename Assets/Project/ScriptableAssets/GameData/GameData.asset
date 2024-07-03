@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 106f5be4427a404dbda7ca498b3f15e0, type: 3}
+  m_Name: GameData
+  m_EditorClassIdentifier: 
+  _buildings:
+  - rid: 7644875797643132938
+  - rid: 7644875797643132934
+  - rid: 7644875797643132935
+  - rid: 7644875797643132936
+  - rid: 7644875811724197888
+  startUpPlayer:
+    _currencyItems:
+    - _currencyType: 0
+      _count: 100
+    _resourceItems: []
+  _startScreenScene: Loader
+  _levels:
+  - {fileID: 11400000, guid: 65bfe4edb90f5459790d982a5d7b4450, type: 2}
+  - {fileID: 11400000, guid: 1d1a11e897ac245d99ec3b8d2eb0d9b4, type: 2}
+  references:
+    version: 2
+    RefIds:
+    - rid: 7644875797643132934
+      type: {class: FactoryBuildingData, ns: Game.Map.Data, asm: Game}
+      data:
+        _buildingType: 0
+        _productType: 2
+        _upgradeData:
+          _basePrice:
+            _currencyType: 0
+            _count: 50
+          _baseProductionCount: 1
+          _baseProductionTimeSeconds: 8
+          _maxUpgrades: 10
+          _priceIncreaseKoof: 50
+          _timeDecreaseMultiplier: 0.15
+          _productionCountIncreaseMultiplier: 0
+    - rid: 7644875797643132935
+      type: {class: FactoryBuildingData, ns: Game.Map.Data, asm: Game}
+      data:
+        _buildingType: 1
+        _productType: 3
+        _upgradeData:
+          _basePrice:
+            _currencyType: 0
+            _count: 30
+          _baseProductionCount: 1
+          _baseProductionTimeSeconds: 5
+          _maxUpgrades: 10
+          _priceIncreaseKoof: 25
+          _timeDecreaseMultiplier: 0.2
+          _productionCountIncreaseMultiplier: 0
+    - rid: 7644875797643132936
+      type: {class: FactoryBuildingData, ns: Game.Map.Data, asm: Game}
+      data:
+        _buildingType: 3
+        _productType: 1
+        _upgradeData:
+          _basePrice:
+            _currencyType: 0
+            _count: 30
+          _baseProductionCount: 1
+          _baseProductionTimeSeconds: 4
+          _maxUpgrades: 10
+          _priceIncreaseKoof: 15
+          _timeDecreaseMultiplier: 0.25
+          _productionCountIncreaseMultiplier: 0
+    - rid: 7644875797643132938
+      type: {class: MarketBuildingData, ns: Game.Map.Data, asm: Game}
+      data:
+        _buildingType: 4
+        _saleItems:
+        - _price:
+            _currencyType: 0
+            _count: 1
+          resourceItemType: 1
+        - _price:
+            _currencyType: 0
+            _count: 5
+          resourceItemType: 2
+        - _price:
+            _currencyType: 0
+            _count: 2
+          resourceItemType: 3
+        - _price:
+            _currencyType: 0
+            _count: 10
+          resourceItemType: 4
+        - _price:
+            _currencyType: 0
+            _count: 10
+          resourceItemType: 5
+        - _price:
+            _currencyType: 0
+            _count: 10
+          resourceItemType: 6
+    - rid: 7644875811724197888
+      type: {class: ToolsBuildingData, ns: Game.Map.Data, asm: Game}
+      data:
+        _buildingType: 2
+        _craftDelaySeconds: 0.5
+        _craftRecipes:
+        - _item1: 1
+          _item2: 3
+          _craftedItem: 5
+        - _item1: 1
+          _item2: 2
+          _craftedItem: 4
+        - _item1: 3
+          _item2: 2
+          _craftedItem: 6

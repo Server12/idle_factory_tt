@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 888539a3e5ee478bac1d544d32468fc0, type: 3}
+  m_Name: UIViews
+  m_EditorClassIdentifier: 
+  _screenPrefabs:
+  - {fileID: 4339383775894445702, guid: 8bec3b10839f048d49a463b914f50b24, type: 3}
+  - {fileID: 4229051194442728855, guid: 9671f8bb234934750856e0751d7acc98, type: 3}
+  _popupViews:
+  - {fileID: 1966601229404777896, guid: 68bf72deeb0a64775b7a0e4f834989d8, type: 3}
+  - {fileID: 2941003432472770159, guid: d3555e33244404c789b48ccf85aa62dc, type: 3}
+  - {fileID: 1340845924701169785, guid: 0c79d6c640eae4a288faba23f345559e, type: 3}
+  - {fileID: 7570222635717517195, guid: e564673c623934915b57b7342d5e9653, type: 3}
+  - {fileID: 6164979214783630672, guid: db6e1c9a6973641e2b405d48bd050a19, type: 3}

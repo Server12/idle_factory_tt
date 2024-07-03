@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a1df4b1948f4c63bfb8b57e60f88559, type: 3}
+  m_Name: TaskListData
+  m_EditorClassIdentifier: 
+  _tasksList:
+  - rid: 7644875835425947657
+  - rid: 7644875835425947658
+  - rid: 7644875835425947667
+  - rid: 7644875835425947659
+  - rid: 7644875835425947660
+  - rid: 7644875835425947661
+  - rid: 7644875835425947662
+  - rid: 7644875835425947663
+  - rid: 7644875835425947664
+  _backupTasksJson: {fileID: 0}
+  references:
+    version: 2
+    RefIds:
+    - rid: 7644875835425947657
+      type: {class: EarnCurrencyTaskData, ns: Game.Tasks.Data, asm: Game}
+      data:
+        _id: -2020251080
+        _taskDescription: Earn 130 of Gold.
+        _currency: 0
+        _earnCount: 130
+    - rid: 7644875835425947658
+      type: {class: EarnCurrencyTaskData, ns: Game.Tasks.Data, asm: Game}
+      data:
+        _id: -1778413245
+        _taskDescription: Earn 500 of Gold.
+        _currency: 0
+        _earnCount: 500
+    - rid: 7644875835425947659
+      type: {class: ProduceResourceTaskData, ns: Game.Tasks.Data, asm: Game}
+      data:
+        _id: 1416901307
+        _taskDescription: Produce 20 of Iron.
+        _resource: 2
+        _count: 20
+    - rid: 7644875835425947660
+      type: {class: ProduceResourceTaskData, ns: Game.Tasks.Data, asm: Game}
+      data:
+        _id: -15963498
+        _taskDescription: Produce 20 of Stone.
+        _resource: 3
+        _count: 20
+    - rid: 7644875835425947661
+      type: {class: ProduceResourceTaskData, ns: Game.Tasks.Data, asm: Game}
+      data:
+        _id: 944837673
+        _taskDescription: Produce 10 of Hummer.
+        _resource: 5
+        _count: 10
+    - rid: 7644875835425947662
+      type: {class: UpgradeBuildingTaskData, ns: Game.Tasks.Data, asm: Game}
+      data:
+        _id: -967555752
+        _taskDescription: Upgrade IronFactory to 5 level.
+        _buildingType: 0
+        _upgradeLevel: 5
+    - rid: 7644875835425947663
+      type: {class: UpgradeBuildingTaskData, ns: Game.Tasks.Data, asm: Game}
+      data:
+        _id: 2022545977
+        _taskDescription: Upgrade StoneFactory to 3 level.
+        _buildingType: 1
+        _upgradeLevel: 3
+    - rid: 7644875835425947664
+      type: {class: UpgradeBuildingTaskData, ns: Game.Tasks.Data, asm: Game}
+      data:
+        _id: 1738254586
+        _taskDescription: Upgrade WoodFactory to 3 level.
+        _buildingType: 3
+        _upgradeLevel: 3
+    - rid: 7644875835425947667
+      type: {class: ProduceResourceTaskData, ns: Game.Tasks.Data, asm: Game}
+      data:
+        _id: 728352431
+        _taskDescription: Produce 50 of Wood.
+        _resource: 1
+        _count: 50

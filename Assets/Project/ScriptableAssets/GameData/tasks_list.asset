@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!49 &4900000
+TextAsset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: tasks_list
+  m_Script: "{\n  \"$type\": \"Game.Tasks.Data.BaseTaskData[], Game\",\n  \"$values\":
+    [\n    {\n      \"$type\": \"Game.Tasks.Data.EarnCurrencyTaskData, Game\",\n     
+    \"Currency\": 0,\n      \"EarnCount\": 100,\n      \"TaskDescription\": \"Earn
+    100 of Gold.\",\n      \"ID\": \"earn_gold_100\"\n    },\n    {\n      \"$type\":
+    \"Game.Tasks.Data.EarnCurrencyTaskData, Game\",\n      \"Currency\": 0,\n     
+    \"EarnCount\": 500,\n      \"TaskDescription\": \"Earn 500 of Gold.\",\n     
+    \"ID\": \"earn_gold_500\"\n    },\n    {\n      \"$type\": \"Game.Tasks.Data.ProduceResourceTaskData,
+    Game\",\n      \"Resource\": 1,\n      \"Count\": 50,\n      \"TaskDescription\":
+    \"Produce 50 of Wood.\",\n      \"ID\": \"produce_wood_50\"\n    },\n    {\n     
+    \"$type\": \"Game.Tasks.Data.ProduceResourceTaskData, Game\",\n      \"Resource\":
+    2,\n      \"Count\": 20,\n      \"TaskDescription\": \"Produce 20 of Iron.\",\n     
+    \"ID\": \"produce_iron_20\"\n    },\n    {\n      \"$type\": \"Game.Tasks.Data.ProduceResourceTaskData,
+    Game\",\n      \"Resource\": 3,\n      \"Count\": 20,\n      \"TaskDescription\":
+    \"Produce 20 of Stone.\",\n      \"ID\": \"produce_stone_20\"\n    },\n    {\n     
+    \"$type\": \"Game.Tasks.Data.ProduceResourceTaskData, Game\",\n      \"Resource\":
+    5,\n      \"Count\": 10,\n      \"TaskDescription\": \"Produce 10 of Hummer.\",\n     
+    \"ID\": \"produce_hummer_10\"\n    },\n    {\n      \"$type\": \"Game.Tasks.Data.UpgradeBuildingTaskData,
+    Game\",\n      \"UpgradeLevel\": 5,\n      \"BuildingType\": 0,\n      \"TaskDescription\":
+    \"Upgrade IronFactory to 5 level.\",\n      \"ID\": \"upgrade_ironfactory_5\"\n   
+    },\n    {\n      \"$type\": \"Game.Tasks.Data.UpgradeBuildingTaskData, Game\",\n     
+    \"UpgradeLevel\": 3,\n      \"BuildingType\": 1,\n      \"TaskDescription\":
+    \"Upgrade StoneFactory to 3 level.\",\n      \"ID\": \"upgrade_stonefactory_3\"\n   
+    },\n    {\n      \"$type\": \"Game.Tasks.Data.UpgradeBuildingTaskData, Game\",\n     
+    \"UpgradeLevel\": 3,\n      \"BuildingType\": 3,\n      \"TaskDescription\":
+    \"Upgrade WoodFactory to 3 level.\",\n      \"ID\": \"upgrade_woodfactory_3\"\n   
+    }\n  ]\n}"

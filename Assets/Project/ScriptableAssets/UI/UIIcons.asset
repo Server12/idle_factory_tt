@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a532d4a87b914af0b8249e4e1024db14, type: 3}
+  m_Name: UIIcons
+  m_EditorClassIdentifier: 
+  _currencyIcons:
+  - key: 0
+    value: {fileID: 21300000, guid: 53831ffd2c1064d07b3fcc10982b1e0d, type: 3}
+  _allResourcesAndToolIcons:
+  - key: 1
+    value: {fileID: 21300000, guid: de218bd6a11cb401b9a9552ba73768d5, type: 3}
+  - key: 2
+    value: {fileID: 21300000, guid: 578a3d5d8f5bf4b9f8e16addba77bdd9, type: 3}
+  - key: 3
+    value: {fileID: 21300000, guid: 3fcfde9aae4c640248e03955ca68ac32, type: 3}
+  - key: 4
+    value: {fileID: 21300000, guid: 8784725b4675b493790dd8913b6086f6, type: 3}
+  - key: 5
+    value: {fileID: 21300000, guid: 0cc45163ac590468c8aefbf6043c79c9, type: 3}
+  - key: 6
+    value: {fileID: 21300000, guid: 01c5e6b981cc0414b9eeb0bd7adc0eae, type: 3}
+  _cancelIcon: {fileID: 21300000, guid: 5c8386e38194d48059299046b9080dc5, type: 3}

@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6edc1e8c18e4b38bb51d2e83b5be956, type: 3}
+  m_Name: BuildingViews
+  m_EditorClassIdentifier: 
+  _factoryBuildings:
+  - key: 3
+    value:
+    - {fileID: 4640099032440868728, guid: f670b2699e09645e6ba7e7106521dffe, type: 3}
+    - {fileID: 7621775865154677265, guid: fd4d0af40da974072afd238fd8d4defc, type: 3}
+    - {fileID: 6468408629833176326, guid: 6a9b11780771842f292ee94902485412, type: 3}
+  - key: 0
+    value:
+    - {fileID: 1528402809962611872, guid: b36222811f1c246cfac439006ed03f72, type: 3}
+    - {fileID: 8585744052506090060, guid: 6b1f2283b352a4a22b207a3322b0eac9, type: 3}
+    - {fileID: 3016514555147701109, guid: 44d7100abc2b64a3d9ef806cdcb3f82e, type: 3}
+  - key: 1
+    value:
+    - {fileID: -4082298405143294254, guid: 637ecb8893d3f474eaa0257a648412e4, type: 3}
+    - {fileID: 5890703573559460574, guid: f211e4d01541d45949eb4880bad505e2, type: 3}
+    - {fileID: 535213926901881278, guid: a3ce58c3871de40f6ac441af071b6dc1, type: 3}
+  _toolsFactoryBuildingViewPrefab: {fileID: 4173171022127187921, guid: 6bcc753fdad0d444ea24ceb846b24cf9,
+    type: 3}
+  marketPrefab: {fileID: -227543995922080655, guid: b06bcd6aaa9f943419c5235fcbb4d00c,
+    type: 3}
